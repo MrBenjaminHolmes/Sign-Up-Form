@@ -69,23 +69,35 @@ form{
     background-color: #fafafa; 
     border-radius: 8px;
 }
+input::placeholder{
+    font-size: 16px;
+}
+label{
+    font-size: 24px;
+}
 
 form>div{
     display: flex;
     flex-direction: column;
 }
 
+
 input{
     width: 20vw;
     transition: transform 0.2s ease-in-out;
+    border: none;
+    background-color: #fafafa;
+    border-bottom: 1px rgb(99, 99, 99) solid;
 }
 
 input.password:invalid{
-    border: solid 2px rgb(231, 73, 73);
+    border: none;
+    border-bottom:  solid 2px rgb(231, 73, 73);;
 }
 
 input:valid{
-    border: solid 2px rgb(131, 189, 77);
+    border: none;
+    border-bottom: solid 2px rgb(131, 189, 77);
 }
 
 input:hover{
