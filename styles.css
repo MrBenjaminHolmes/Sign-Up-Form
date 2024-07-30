@@ -1,14 +1,46 @@
 *{
+    font-family: "Oswald", sans-serif;
+    margin-bottom: 0px;
     margin-top: 0px;
     margin-left: 0px;
-    margin-bottom: 0px;
 }
 
-body{
+
+body {
     display: flex;
+    height: 100vh;
+    margin: 0;
 }
 
-img{
-    height:100vh;
+.container {
+    position: relative;
+}
+#backgroundImg{
+    height: 100vh;
+    width: auto;
+}
+.logoImage{
+    height:9vh
+}
 
+.Logo {
+    display: flex;
+    position: absolute;
+    top: 25%;
+    background-color: #000000d3;
+    padding: 15px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    box-sizing: border-box; 
+    gap:40px;
+}
+.title{
+    font-size: 45px;
+    font-style: italic;
+}
+
+.formContainer{
+    background-color: #9c3939;
 }
