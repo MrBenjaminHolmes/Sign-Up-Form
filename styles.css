@@ -57,6 +57,7 @@ body {
 form{
     display: flex;
     gap: 100px;
+    
     padding: 30px;
     padding-left: 50px;
     align-items: center;
@@ -70,8 +71,18 @@ form>div{
 
 input{
     width: 20vw;
+    transition: transform 0.2s ease-in-out;
 }
 
 input.password:invalid{
     border: solid 2px rgb(231, 73, 73);
+}
+
+input:valid{
+    border: solid 2px rgb(131, 189, 77);
+}
+
+input:hover{
+    
+    transform: scale(1.05);
 }
