@@ -1,7 +1,8 @@
 *{
     font-family: "Oswald", sans-serif;
-    margin-bottom: 0px;
+
     margin-top: 0px;
+    color: #333;
     margin-left: 0px;
 }
 
@@ -26,7 +27,7 @@ body {
 .Logo {
     display: flex;
     position: absolute;
-    top: 25%;
+    top: 15%;
     background-color: #000000d3;
     padding: 15px;
     width: 100%;
@@ -36,19 +37,21 @@ body {
     box-sizing: border-box; 
     gap:40px;
 }
-.title{
+span.title{
     font-size: 45px;
+    color:  white;
     font-style: italic;
 }
 
 .formContainer{
-    background-color: rgb(252, 252, 252);
+    background-color: #f5f5f5; ;
     width: 100%;
 }
 
 .heading{
-    margin-top: 6vh;
+    margin-top: 3vh;
     font-weight: 100;
+    color: rgb(175, 175, 175);
     padding: 50px;
     font-size: 1rem;
     flex: 1;
@@ -59,9 +62,12 @@ form{
     gap: 100px;
     margin-bottom: 10px;
     padding: 30px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     padding-left: 50px;
     align-items: center;
-    background-color: #e7e7e7;
+    background-color: #fafafa; 
+    border-radius: 8px;
 }
 
 form>div{
@@ -98,9 +104,9 @@ input:hover{
     box-sizing: border-box;
 }
 
-a{
-    
+.link{
     color: white;
+    
 }
 
 div.footer{
@@ -112,8 +118,33 @@ div.footer{
     margin: 12px;
     border-radius: 8px;
     border: none;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 rgba(230, 230, 230, 0.521), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-left: 50px;
     padding: 10px;
+    background-color: #3498db;
+    color: #fff;
     font-size: 32px;
+    transition: transformbackground-color 0.2s; 
+    transition: transform 0.2s ease-in-out; /
+}
+
+.createBtn:hover {
+    background-color: #2980b9; 
+    transform: scale(1.05);
+}
+
+
+
+h3{
+    margin-top: 10px;
+    margin-left: 50px;  
+}
+
+.formTitle{
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+h1{
+    font-size: 60px;
 }
