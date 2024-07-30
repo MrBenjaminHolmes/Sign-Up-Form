@@ -57,7 +57,7 @@ body {
 form{
     display: flex;
     gap: 100px;
-    
+    margin-bottom: 10px;
     padding: 30px;
     padding-left: 50px;
     align-items: center;
@@ -85,4 +85,35 @@ input:valid{
 input:hover{
     
     transform: scale(1.05);
+}
+
+.footer{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: #000000d3;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+a{
+    
+    color: white;
+}
+
+div.footer{
+    justify-content: center;
+    align-items: center;
+}
+
+.createBtn{
+    margin: 12px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 50px;
+    padding: 10px;
+    font-size: 32px;
 }
