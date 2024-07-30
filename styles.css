@@ -42,5 +42,36 @@ body {
 }
 
 .formContainer{
-    background-color: #9c3939;
+    background-color: rgb(252, 252, 252);
+    width: 100%;
+}
+
+.heading{
+    margin-top: 6vh;
+    font-weight: 100;
+    padding: 50px;
+    font-size: 1rem;
+    flex: 1;
+}
+
+form{
+    display: flex;
+    gap: 100px;
+    padding: 30px;
+    padding-left: 50px;
+    align-items: center;
+    background-color: #e7e7e7;
+}
+
+form>div{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width: 20vw;
+}
+
+input.password:invalid{
+    border: solid 2px rgb(231, 73, 73);
 }
