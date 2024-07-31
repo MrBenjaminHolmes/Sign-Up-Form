@@ -1,7 +1,7 @@
 # Sign-Up-Form
 A Sign Up Form
 
-[Try Me!](https://mrfarmerbon.github.io/Etch-a-Sketch/) 📝
+[Try Me!](https://mrfarmerbon.github.io/Sign-Up-Form/) 📝
 
 © 2024 MrFarmerBon
 
