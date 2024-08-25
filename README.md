@@ -1,4 +1,4 @@
-v# Sign-Up-Form
+# Sign-Up-Form
 A Sign Up Form
 
 [Try Me!](https://mrbenjaminholmes.github.io/Sign-Up-Form/) 📝
